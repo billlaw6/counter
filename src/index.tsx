@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { Provider } from 'react-redux';
-// import configureStore from './store';
-import store from './store';
+import configureStore from './store';
+// import store from './store';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-// const store = configureStore();
+const store = configureStore();
 
 const Root = () => (
     <Provider store={store}>
