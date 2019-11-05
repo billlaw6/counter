@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { addCount } from './store/actions';
 import { AppState } from './store';
-import logo from './logo.svg';
 import './App.css';
 
 interface IAppProps {
